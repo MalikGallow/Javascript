@@ -40,8 +40,8 @@ alert(message);
 /* https:
 // developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Lexical_grammar#Keywords*/
 
-// var name = prompt("Enter your Name")
-// alert("Hello, " +name);
+var name = prompt("Enter your Name")
+alert("Hello, " +name);
 
 var name = ('Abdul'),
     age = ('18'),
