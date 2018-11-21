@@ -23,14 +23,33 @@ function myFunction() {
 
 === */
 var name = prompt("What is your name");
+var  age =  prompt("How old are you");
 function greetingsUsers(){
-    console.log("Hello! " + name)
+    console.log("hola " + name, "y yo soy " + age)
 }
 
 console.log("Start of program");
 greetingsUsers();
 console.log("End of program");
 
+/* =============================================*/
+function sayHello() {
+    return "Hello";
+}
 
+console.log("Start of program");
+let result = sayHello();
+console.log(result);
+console.log("End of program")
 
+//Declare myFunction
+function myFunction(){
+    //Calculating return value
+    // ...
+    return returnValue;
+}
+
+// Get return value from myFunction
+var value = myFunction();
+//...
 
